@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stripe</groupId>
+  <artifactId>stripeterminal-java</artifactId>
+  <version>1.0.0-b17</version>
+  <name>stripeterminal-java</name>
+  <description>Stripe Terminal Java</description>
+  <url>https://github.com/stripe/stripe-terminal-java</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://raw.githubusercontent.com/stripe/stripe-terminal-java/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>stripe</id>
+      <name>Stripe</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com/stripe/stripe-terminal-java.git</connection>
+    <developerConnection>scm:git@github.com/stripe/stripe-terminal-java.git</developerConnection>
+    <url>https://github.com/stripe/stripe-terminal-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.stripe</groupId>
+      <artifactId>stripeterminal-java-external</artifactId>
+      <version>1.0.0-b17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.9.25</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stripe</groupId>
+      <artifactId>stripeterminal-java-internal-common</artifactId>
+      <version>1.0.0-b17</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>26.0.2-1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
